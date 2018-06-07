@@ -1,0 +1,193 @@
+:root {
+    --dark-blue: #2794B1;
+    --dark-gray:  #4f4f4f;
+    --gray: #888;
+    --light-blue: #36d3ff;
+    --light-gray: #ccc;
+    --hot-pink: #ff708d;
+    --pink: #ffb7c5;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body {
+    color: var(--dark-gray);
+    font-family: Montserrat, sans-serif;
+    font-variant-ligatures: common-ligatures;
+}
+
+h1,
+.h1 {
+    font-size: 2.441rem;
+}
+
+h2,
+.h2 {
+    font-size: 1.953rem;
+}
+
+h1,
+.h1,
+h2,
+.h2 {
+    font-weight: lighter;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+h3,
+.h3 {
+    font-size: 1.563rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.25rem;
+}
+
+h5,
+.h5 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark-blue);
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+::selection {
+    background: var(--pink);
+}
+
+::-moz-selection {
+    background: var(--pink);
+}
+
+.background-center {
+    background-position: center;
+}
+
+.background-hot-pink {
+    background: var(--hot-pink);
+}
+
+.background-light-blue {
+    background: var(--light-blue);
+}
+
+.background-white {
+    background: white;
+}
+
+.hover-background-light-blue:hover {
+    background: var(--light-blue);
+}
+
+.background-blend-luminosity {
+    background-blend-mode: luminosity;
+}
+
+.transition-background {
+    transition: background .4s;
+}
+
+.border2 {
+    border-width: 2px;
+}
+
+.border-dark-gray {
+    border-color: var(--dark-gray);
+}
+
+.color-dark-blue {
+    color: var(--dark-blue);
+}
+
+.color-dark-gray {
+    color: var(--dark-gray);
+}
+
+.color-hot-pink {
+    color: var(--hot-pink);
+}
+
+.color-light-blue {
+    color: var(--light-blue);
+}
+
+.color-light-gray {
+    color: var(--light-gray);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.color-white {
+    color: white;
+}
+
+.cover {
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-gap-2 {
+    grid-gap: 1rem;
+}
+
+.text-larger {
+    font-size: 1.25em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+@media (min-width: 52em) {
+    .md-grid-col-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .md-grid-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .md-grid-col-span-2 {
+        grid-column: span 2;
+    }
+
+    .md-inline-block {
+        display: inline-block;
+    }
+
+    .md-left-align {
+        text-align: left;
+    }
+
+    .md-mt0 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 64em) {
+    .lg-p4 {
+        padding: 4rem;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+        {{ block "title" . }}
+            {{ .Site.Title }}
+        {{ end }}
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/basscss/css/basscss.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body class="m0">
+    <nav class="color-white">
+        <a href="/" class="block center color-dark-blue p2 md-inline-block md-left-align text-decoration-none" style="font-family: 'Cinzel Decorative', serif; letter-spacing: .05em;">Aegeria</a>
+
+        <ul class="inline list-reset m0">
+            <li class="border2 border-dark-gray border-bottom center hover-background-light-blue md-inline-block mx1 my0 p2 transition-background"><a href="/getting-started" class="color-dark-gray text-decoration-none">Getting Started</a></li>
+            <li class="border2 border-dark-gray border-bottom center hover-background-light-blue md-inline-block mx1 my0 p2 transition-background"><a href="/plugins" class="color-dark-gray text-decoration-none">Plugins</a></li>
+            <li class="border2 border-dark-gray border-bottom center hover-background-light-blue md-inline-block mx1 my0 p2 transition-background"><a href="/custom-integration" class="color-dark-gray text-decoration-none">Custom Integration</a></li>
+            <li class="border2 border-dark-gray border-bottom center hover-background-light-blue md-inline-block mx1 my0 p2 transition-background"><a href="/api" class="color-dark-gray text-decoration-none">API</a></li>
+        </ul>
+    </nav>
+
+    {{ block "main" . }}
+    {{ end }}
+</body>
+</html>
