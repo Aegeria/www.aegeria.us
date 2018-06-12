@@ -5,15 +5,12 @@ date: 2018-05-28T15:32:44-04:00
 <div class="background-center cover flex items-center" style="background-image: url(/images/cee.jpg); min-height: 80vh;">
     <div class="background-white lg-p4 max-width-4 mx-auto p2">
         <h1 class="center color-light-blue" style="font-family: 'Cinzel Decorative', serif; font-size: 3rem;">Aegeria</h1>
-
         <h2 class="color-light-gray">A Product Recommendation Engine for your Shop</h2>
-
         <p class="color-gray">
             Aegeria mines your existing sales data to provide actionable and relevant product recommendations to your customers.
             Written with a clean and simple interface, Aegeria can go where you need it. Whether that’s making live
             recommendations on your shop or powering a customized product list on your email campaigns, Aegeria is there.
         </p>
-
         <div class="center">
             <a href="/getting-started" class="background-hot-pink color-white inline-block px3 py2 rounded text-decoration-none text-larger">Get Started With Our Guide</a>
         </div>
@@ -22,7 +19,6 @@ date: 2018-05-28T15:32:44-04:00
 
 <div class="max-width-4 mx-auto p2">
     <h2>A Variety of Learning Models</h2>
-
     <div class="grid grid-gap-2 md-grid-col-3">
         <div>
             <h6 class="color-hot-pink m0 mb1 uppercase">Association Rules</h6>
@@ -51,7 +47,6 @@ date: 2018-05-28T15:32:44-04:00
 <div class="grid grid-gap-2 max-width-4 md-grid-col-2 mx-auto p2">
     <div>
         <h2>Simplicity, Clearly Documented</h2>
-
         <p>Getting started with a Web service can be hard. We keep the interface itself as small and intuitive as possible to get you up and running with something useful as quickly as possible.</p>
         <p>Get started quickly with our <a href="/getting-started">usage guide</a>. We guide you through your first interactions in a step-by-step tutorial that explains how the parts of the interface fit together.</p>
         <p><a href="#">Detailed documentation</a> covers every square inch of the API. Know exactly what information to send, where to send it, and what you’ll get back.</p>
@@ -73,7 +68,7 @@ date: 2018-05-28T15:32:44-04:00
     </div>
 </div>
 
-<div style="background-color: #fafafa;">
+<div style="background-color: #f0f0fa;">
     <div class="max-width-4 mx-auto p2">
         <h2>Billing That Won’t Punish You</h2>
         <p>
