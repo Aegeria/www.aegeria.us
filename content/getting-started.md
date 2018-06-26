@@ -13,17 +13,28 @@ for you. Once you're done creating your account, we will give you an API key. Be
 For your security, we don’t store the key in a recoverable format and so must issue a new one in the event that it
 becomes lost.
 
-<form method="post" action="https://api.aegeria.us/account">
-    <label>Name</label>
-    <input name="name">
-    <label>Company Email</label>
-    <input type="email" name="email" />
-</form>
+<div class="grid grid-gap-2 md-grid-col-2">
+    <img class="fit" src="/images/laptop.svg" />
+    <div class="">
+        <h2>Create Account</h2>
+        <form id="account-form" class="transition-opacity">
+            <label for="name">Company Name</label>
+            <input name="name" id="name" class="border border-box border-light-gray col-12 mb2 px2 py1 rounded" />
+            <label for="email">Company Email</label>
+            <input type="email" name="email" id="email" class="border border-box border-light-gray col-12 mb2 px2 py1 rounded" />
+            <p id="account-error" role="alert"></p>
+            <input type="submit" class="background-hot-pink border-none color-white inline-block pointer px2 py1 rounded text-decoration-none" value="Create Account" />
+        </form>
+        <form id="card-form" class="display-none opacity-none transition-opacity">
+            <div id="card-element"></div>
+            <p id="card-error" role="alert"></p>
+            <input type="submit" class="background-hot-pink border-none color-white inline-block pointer px2 py1 rounded text-decoration-none" value="Enter Card" />
+        </form>
+        <div id="key-display" class="display-none opacity-none transition-opacity">
+            <p>All done! Here is your API key. <span class="color-gray">(Keep it secret. Keep it safe.)</span></p>
+            <div class="background-faint-gray col-12 center p2"><code id="api-key">14978939a7e8f82b290cd327c</code></div>
+        </div>
+    </div>
+</div>
 
-
-
-<form method="post" action="https://api.aegeria.us/account/card">
-    <input type="hidden" name="stripeToken" />
-</form>
-
-<script src="https://js.stripe.com/v3/"></script>
+<script defer src="/js/getting-started.js"></script>

@@ -1,6 +1,7 @@
 :root {
     --dark-blue: #2794B1;
     --dark-gray:  #4f4f4f;
+    --faint-gray: #e8e8e8;
     --gray: #888;
     --light-blue: #36d3ff;
     --light-gray: #ccc;
@@ -80,6 +81,10 @@ a {
     background-position: center;
 }
 
+.background-faint-gray {
+    background: var(--faint-gray);
+}
+
 .background-hot-pink {
     background: var(--hot-pink);
 }
@@ -100,16 +105,16 @@ a {
     background-blend-mode: luminosity;
 }
 
-.transition-background {
-    transition: background .4s;
-}
-
 .border2 {
     border-width: 2px;
 }
 
 .border-dark-gray {
     border-color: var(--dark-gray);
+}
+
+.border-light-gray {
+    border-color: var(--light-gray);
 }
 
 .color-dark-blue {
@@ -152,8 +157,33 @@ a {
     grid-gap: 1rem;
 }
 
+.opacity-none {
+    opacity: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.StripeElement {
+    border: 1px solid var(--light-gray);
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
 .text-larger {
     font-size: 1.25em;
+}
+
+.transition-background {
+    transition: background .4s;
+}
+
+.transition-opacity {
+    transition: opacity .4s;
 }
 
 .uppercase {
