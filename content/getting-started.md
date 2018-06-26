@@ -14,7 +14,7 @@ For your security, we don’t store the key in a recoverable format and so must 
 becomes lost.
 
 <div class="grid grid-gap-2 md-grid-col-2">
-    <img class="fit" src="/images/laptop.svg" />
+    <img class="fit sm-hide xs-hide" src="/images/laptop.svg" />
     <div class="">
         <h2>Create Account</h2>
         <form id="account-form" class="transition-opacity">
