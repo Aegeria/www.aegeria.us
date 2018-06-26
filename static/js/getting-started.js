@@ -50,12 +50,6 @@ accountForm.addEventListener('submit', function (event) {
         'method': 'POST',
     })
         .then(async function (response) {
-            if (!response.ok) {
-                accountError.innerText = "We're sorry, something went wrong processing your request. Please try again later.";
-
-                return;
-            }
-
             const data = await response.json();
 
             if (response.status === 422) {
@@ -64,6 +58,12 @@ accountForm.addEventListener('submit', function (event) {
                 } else if (data.name) {
                     accountError.innerText = data.name;
                 }
+
+                return;
+            }
+
+            if (!response.ok) {
+                accountError.innerText = "We're sorry, something went wrong processing your request. Please try again later.";
 
                 return;
             }
@@ -97,6 +97,7 @@ cardForm.addEventListener('submit', async function (event) {
         'body': JSON.stringify({
             'stripeToken': token,
         }),
+        'credentials': 'same-origin',
         'headers': {
             'Authorization': 'Bearer ' + key,
             'Content-Type': 'application/json',

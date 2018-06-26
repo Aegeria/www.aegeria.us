@@ -49,7 +49,7 @@ date: 2018-05-28T15:32:44-04:00
         <h2>Simplicity, Clearly Documented</h2>
         <p>Getting started with a Web service can be hard. We keep the interface itself as small and intuitive as possible to get you up and running with something useful as quickly as possible.</p>
         <p>Get started quickly with our <a href="/getting-started">usage guide</a>. We guide you through your first interactions in a step-by-step tutorial that explains how the parts of the interface fit together.</p>
-        <p><a href="#">Detailed documentation</a> covers every square inch of the API. Know exactly what information to send, where to send it, and what you’ll get back.</p>
+        <p><a href="/api">Detailed documentation</a> covers every square inch of the API. Know exactly what information to send, where to send it, and what you’ll get back.</p>
     </div>
     <div class="sm-hide xs-hide">
         <img src="/images/plant.jpg" class="fit" alt="Plant" />
@@ -73,7 +73,7 @@ date: 2018-05-28T15:32:44-04:00
         <h2>Billing That Won’t Punish You</h2>
         <p>
             <a href="/getting-started">Try Aegeria</a> free for the first 30 days. If it doesn’t work out right for you,
-            just cancel during the trial period and pay absolutely nothing. After the trial period, pay only 1¢ per
+            just <a href="/account-management">cancel</a> during the trial period and pay absolutely nothing. After the trial period, pay only 1¢ per
             recommendation.
         </p>
     </div>
