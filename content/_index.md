@@ -4,7 +4,7 @@ date: 2018-05-28T15:32:44-04:00
 
 <div class="background-center cover flex items-center" style="background-image: url(/images/cee.jpg); min-height: 80vh;">
     <div class="background-white lg-p4 max-width-4 mx-auto p2">
-        <h1 class="center color-light-blue" style="font-family: 'Cinzel Decorative', serif; font-size: 3rem;">Aegeria</h1>
+        <h1 class="center cinzel-decorative color-light-blue" style="font-size: 3rem;">Aegeria</h1>
         <h2 class="color-light-gray">A Product Recommendation Engine for your Shop</h2>
         <p class="color-gray">
             Aegeria mines your existing sales data to provide actionable and relevant product recommendations to your customers.
@@ -68,7 +68,7 @@ date: 2018-05-28T15:32:44-04:00
     </div>
 </div>
 
-<div style="background-color: #f0f0fa;">
+<div class="background-faint-gray">
     <div class="max-width-4 mx-auto p2">
         <h2>Billing That Won’t Punish You</h2>
         <p>
