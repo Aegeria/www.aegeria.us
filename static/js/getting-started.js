@@ -1,5 +1,5 @@
 const baseUrl = 'https://api.aegeria.us',
-    stripe = Stripe('pk_test_g6do5S237ekq10r65BnxO6S0'),
+    stripe = Stripe('pk_live_PyuQ2VIFQYvV7y43zdhjkWWi'),
     elements = stripe.elements(),
     card = elements.create('card'),
     accountForm = document.getElementById('account-form'),
