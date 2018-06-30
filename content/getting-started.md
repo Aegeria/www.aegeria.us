@@ -8,9 +8,9 @@ date: 2018-05-28T14:01:10-04:00
 Starting with Aegeria is easy. All you have to do is create an account with us, set up billing information, and then
 integrate with our API. Integrations can either be custom or use an off-the-shelf plugin for your eCommerce system. When
 you’re ready, just follow the forms below to create your account and then either follow our
-[custom integration guide](/custom-integration) or select the [off-the-shelf integration](/plugins) that’s appropriate
+[custom integration guide](/custom-integration/index.html) or select the [off-the-shelf integration](/plugins/index.html) that’s appropriate
 for you. Once you're done creating your account, we will give you an API key. Be sure to put this someplace safe!
-For your security, we don’t store the key in a recoverable format and so must [issue a new one](/account-management)
+For your security, we don’t store the key in a recoverable format and so must [issue a new one](/account-management/index.html)
 in the event that it becomes lost.
 
 <div class="grid grid-gap-2 md-grid-col-2">
